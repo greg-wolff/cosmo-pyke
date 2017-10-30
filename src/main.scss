@@ -1,0 +1,26 @@
+@import './normalize.css';
+
+h1 {
+    color: rgb(250, 160, 58);
+}
+
+body {
+    font-family: monospace;
+}
+main {
+    position: absolute;
+    z-index: 999;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    position: absolute;
+    margin: 40px 0;
+    width: 90vw;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
